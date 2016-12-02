@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="180mm"
+   height="45mm"
+   viewBox="0 0 637.79528 159.44877"
+   id="svg3536"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="arm-drehen.svg">
+  <defs
+     id="defs3538" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="-302.53093"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1319"
+     inkscape:window-height="744"
+     inkscape:window-x="47"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     units="in">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3544" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3541">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-892.91344)">
+    <rect
+       style="fill:#d7fc00;fill-opacity:1;stroke:none;stroke-width:2.75711846;stroke-linejoin:miter;stroke-miterlimit:36;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4228"
+       width="204.34981"
+       height="41.949047"
+       x="196.81157"
+       y="896.60059"
+       transform="matrix(0.99993338,0.01154257,-0.01154257,0.99993338,0,0)" />
+    <rect
+       style="fill:#d7fc00;fill-opacity:1"
+       id="rect4187"
+       width="258.50003"
+       height="74.428032"
+       x="166.99707"
+       y="956.23138"
+       transform="matrix(0.99993338,0.01154257,-0.01154257,0.99993338,0,0)" />
+  </g>
+</svg>

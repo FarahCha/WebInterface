@@ -1,0 +1,60 @@
+#Main
+{
+    width: auto;
+    height: 100%;
+    padding:20px;
+}
+#desc_arm
+{
+    padding: 2%;
+    position: relative;
+}
+img
+{
+    width: 200px;
+    height: auto;
+}
+#copyright
+{
+    background-color:lightgray;
+    bottom:0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+}
+#top
+
+{
+    padding:2px;
+    background-color:lightgray;
+    padding-left:10%;
+}
+#deko
+{
+    border: 3px solid black;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+
+}
+p, h4
+{
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: justify;
+}
+
+input
+{
+    width: 200px;
+}
+.spalte
+{
+    width: 300px;
+}
+table, td, tr
+{
+    padding: 15px;
+}
