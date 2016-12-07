@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<php
+$('#button').on('click', function() {
+  $.get('python.php', {url : 'url' });
+});php>
     <title>ARMBOT Control</title>
-    <link rel="stylesheet" href="Stylesheet.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.5-dist/css/bootstrap.min.css">
-    <script src="bootstrap-4.0.0-alpha.5-dist/js/bootstrap.js"></script>
-    <script src="bootstrap-4.0.0-alpha.5-dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.5-dist/css/bootstrap2.css">
+    <link rel="stylesheet" href="/static/Stylesheet.css">
+    <link rel="stylesheet" href="/static/bootstrap-4.0.0-alpha.5-dist/css/bootstrap.min.css">
+    <script src="/static/bootstrap/js/bootstrap.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap2.css">
 </head>
 <body>
 <script src="login.php"></script>
@@ -20,13 +24,13 @@
             <form action="">
                 <table>
                 <tr>
-                    <td><img src="img/greifarm.svg" alt=""></td>
+                    <td><img src="/static/img/greifarm.svg" alt=""></td>
                     <td class="spalte"><label for="greifarm">Auf</label><label style="float: right" for="greifarm">Zu</label><input type="range" id="greifarm"></td>
                     <td><p><h4>Greifarm</h4></p></td>
                     <td><h4>Beschreibung</h4></td>
                 </tr>
                 <tr>
-                    <td><img src="img/handgelenk.svg" alt=""></td>
+                    <td><img src="/static/img/handgelenk.svg" alt=""></td>
                     <td class="spalte"><label for="handgelenk">Hinauf</label><label style="float: right" for="handgelenk">Hinunter</label><input type="range" id="handgelenk"></td>
                     <td><p><h4>Handgelenk</h4></p></td>
                     <td><p>Die Steuerung des Roboterarmes erfolgt über ein Webinterface,
@@ -35,7 +39,7 @@
 
                 </tr>
                 <tr>
-                    <td><img src="img/ellbogengelenk.svg" alt=""></td>
+                    <td><img src="/static/img/ellbogengelenk.svg" alt=""></td>
                     <td class="spalte"><label for="ellbogengelenk">Hinauf</label><label
                             style="float: right" for="ellbogengelenk">Hinunter</label><input type="range" id="ellbogengelenk"></td>
                     <td><p><h4>Ellbogengelenk</h4></p></td>
@@ -46,7 +50,7 @@
 
                 </tr>
                 <tr>
-                    <td><img src="img/schultergelenk.svg" alt=""></td>
+                    <td><img src="/static/img/schultergelenk.svg" alt=""></td>
                     <td class="spalte"><label for="schulter">Hinauf</label><label style="float: right" for="schulter">Hinunter</label><input type="range" id="schulter"></td>
                     <td><p><h4>Schultergelenk</h4></p></td>
                     <td><p>
@@ -54,7 +58,7 @@
                     </p></td>
                 </tr>
                 <tr>
-                    <td><img src="img/arm-drehen.svg" alt=""></td>
+                    <td><img src="/static/img/arm-drehen.svg" alt=""></td>
                     <td class="spalte"><label for="arm_drehen">Links</label><label style="float: right" for="arm_drehen">Rechts</label><input type="range" id="arm_drehen"></td>
                     <td><p><h4>Drehplatte</h4></p></td>
                 </tr>
@@ -76,5 +80,92 @@
 
     <strong>Copyright &copy; ARMBOT</strong>
 </div>
+
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<php
+$('#button').on('click', function() {
+  $.get('python.php', {url : 'url' });
+});php>
+    <title>ARMBOT Control</title>
+    <link rel="stylesheet" href="/static/Stylesheet.css">
+    <link rel="stylesheet" href="/static/bootstrap-4.0.0-alpha.5-dist/css/bootstrap.min.css">
+    <script src="/static/bootstrap/js/bootstrap.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap2.css">
+</head>
+<body>
+<script src="login.php"></script>
+<div id="top">
+                <h1>ARMBOT Control</h1>
+</div>
+<div class="container" id="Main">
+
+    <div class="row" id="desc_arm">
+            <form action="">
+                <table>
+                <tr>
+                    <td><img src="/static/img/greifarm.svg" alt=""></td>
+                    <td class="spalte"><label for="greifarm">Auf</label><label style="float: right" for="greifarm">Zu</label><input type="range" id="greifarm"></td>
+                    <td><p><h4>Greifarm</h4></p></td>
+                    <td><h4>Beschreibung</h4></td>
+                </tr>
+                <tr>
+                    <td><img src="/static/img/handgelenk.svg" alt=""></td>
+                    <td class="spalte"><label for="handgelenk">Hinauf</label><label style="float: right" for="handgelenk">Hinunter</label><input type="range" id="handgelenk"></td>
+                    <td><p><h4>Handgelenk</h4></p></td>
+                    <td><p>Die Steuerung des Roboterarmes erfolgt über ein Webinterface,
+                        wodurch die Bedienung durch eine Wireless Verbindung vereinfacht wird.</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><img src="/static/img/ellbogengelenk.svg" alt=""></td>
+                    <td class="spalte"><label for="ellbogengelenk">Hinauf</label><label
+                            style="float: right" for="ellbogengelenk">Hinunter</label><input type="range" id="ellbogengelenk"></td>
+                    <td><p><h4>Ellbogengelenk</h4></p></td>
+                    <td><p>
+                        Das Ansteuern der einzelnen Servokomponenten erfolgt über einen am
+                        Roboterarm angeschlossenen Raspberry Pi 3. Die dafür verwendete Programmiersprache ist Python.
+                    </p></td>
+
+                </tr>
+                <tr>
+                    <td><img src="/static/img/schultergelenk.svg" alt=""></td>
+                    <td class="spalte"><label for="schulter">Hinauf</label><label style="float: right" for="schulter">Hinunter</label><input type="range" id="schulter"></td>
+                    <td><p><h4>Schultergelenk</h4></p></td>
+                    <td><p>
+                        Auf den Raspberry Pi ist ein Webserver installiert, der den entfernten Zugriff auf die Steuerung gewährleistet.
+                    </p></td>
+                </tr>
+                <tr>
+                    <td><img src="/static/img/arm-drehen.svg" alt=""></td>
+                    <td class="spalte"><label for="arm_drehen">Links</label><label style="float: right" for="arm_drehen">Rechts</label><input type="range" id="arm_drehen"></td>
+                    <td><p><h4>Drehplatte</h4></p></td>
+                </tr>
+            </table>
+            </form>
+    </div>
+        <table align="center">
+    <tr>
+        <td style="padding: 10px">Projektleiterin: Sarah <strong>WOTTLE </strong></td>
+        <td>Projektmitarbeiter: Aleksander <strong>COBAN </strong></td>
+    </tr>
+    <tr>
+        <td style="padding: 10px">Stv. Projektleiter: Kevin <strong>DASCALIUC </strong></td>
+        <td>Projektmitarbeiterin: Farah <strong>CHALLAKHI </strong></td>
+    </tr>
+    </table>
+</div>
+<div id="copyright">
+
+    <strong>Copyright &copy; ARMBOT</strong>
+</div>
+
+
 </body>
 </html>
